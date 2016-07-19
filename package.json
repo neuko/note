@@ -1,7 +1,17 @@
 {
-  "name": "",
-  "version": "",
+  "name": "pilotnote",
+  "version": "0.0.1",
+  "engines": {
+    "node": "4.4.7"
+  },
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "ejs": "^2.4.2",
     "express": "^4.14.0"
-  }
+  },
+  "license": "MIT"
 }
